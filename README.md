@@ -347,7 +347,7 @@ Upload a PDF file of the recent DeepSeek-R1 paper and ask the following question
    - Answer: The paper discusses a multi-level multi-discipline Chinese evaluation suite for foundation models, specifically focusing on evaluations related to language models. It involves various aspects such as open-ended evaluations in different languages (Chinese and English), safety evaluations, and the construction of high-quality test cases for safety content. The paper highlights the model's performance in security assessments and emphasizes the importance of human-aligned safety content classification and diverse inquiry methods in evaluation processes.
 
 Does this application pass your vibe check? Are there any immediate pitfalls you're noticing?
-    Not at all. A huge pitfall is that it is unable to really answer any of the questions with anything but "I don't knpw". I edited the Chainlit to give at least a partial answer because it can be extremely irritating to the user to continually get "I don't know" as the default answer. Another thing is that I had to increase the MB from 2 MB to 10 MB using Chainlit in order to get the PDF to be uploaded. 
+    - Not at all. A huge pitfall is that it is unable to really answer any of the questions with anything but "I don't knpw". I edited the Chainlit to give at least a partial answer because it can be extremely irritating to the user to continually get "I don't know" as the default answer. Another thing is that I had to increase the MB from 2 MB to 10 MB using Chainlit in order to get the PDF to be uploaded. 
 
 ## 🚧 CHALLENGE MODE 🚧
 
